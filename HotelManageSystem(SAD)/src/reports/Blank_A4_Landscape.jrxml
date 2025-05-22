@@ -1,0 +1,108 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="Blank_A4_Landscape" language="java" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="040c55c7-566d-42a9-a1a5-7e427c2350cf">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<parameter name="Parameter3" class="java.lang.String"/>
+	<parameter name="Parameter4" class="java.lang.String"/>
+	<parameter name="Parameter5" class="java.lang.String"/>
+	<parameter name="Parameter6" class="java.lang.String"/>
+	<parameter name="Parameter7" class="java.lang.String"/>
+	<parameter name="Parameter8" class="java.lang.String"/>
+	<parameter name="Parameter9" class="java.lang.String"/>
+	<parameter name="Parameter10" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="COLUMN_0" class="java.lang.String"/>
+	<field name="COLUMN_1" class="java.lang.String"/>
+	<field name="COLUMN_2" class="java.lang.String"/>
+	<field name="COLUMN_3" class="java.lang.String"/>
+	<field name="COLUMN_4" class="java.lang.String"/>
+	<field name="COLUMN_5" class="java.lang.String"/>
+	<field name="COLUMN_6" class="java.lang.String"/>
+	<field name="COLUMN_7" class="java.lang.String"/>
+	<field name="COLUMN_8" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<title height="124" splitType="Stretch">
+		<element kind="rectangle" uuid="a718835c-77d5-4d14-bf03-f3c9a3c8d818" x="-20" y="-20" width="841" height="139" forecolor="#000000" backcolor="#171543"/>
+		<element kind="staticText" uuid="9b8ae260-8fc1-4e2f-9c38-a11a82e12230" x="0" y="-11" width="340" height="50" forecolor="#FFFFFF" fontName="Poppins Light" fontSize="26.0" bold="true" underline="false" hTextAlign="Left">
+			<text><![CDATA[Hotel Air / Booking Report]]></text>
+		</element>
+		<element kind="staticText" uuid="d9dffa30-e1b8-4c37-aa46-15dc22053240" x="1" y="31" width="276" height="19" forecolor="#FFFFFF" fontName="Poppins Light" fontSize="10.0" hTextAlign="Left">
+			<text><![CDATA[Address: 123 Ocean Drive, Miami Beach, FL 33139]]></text>
+		</element>
+		<element kind="staticText" uuid="a02a07d0-5c5f-4c94-921e-01f10e01a76e" x="0" y="51" width="276" height="19" forecolor="#FFFFFF" fontName="Poppins Light" fontSize="10.0" hTextAlign="Left">
+			<text><![CDATA[City State Zip: Miami Beach, FL 33139]]></text>
+		</element>
+		<element kind="staticText" uuid="149dc185-2ef6-4aaf-8370-12a6d2340c37" x="0" y="70" width="219" height="30" forecolor="#FFFFFF" fontName="Poppins Light" fontSize="10.0" hTextAlign="Left">
+			<text><![CDATA[Contact Information: Phone: (305) 123-4567  Email: info@oceanhotel.com]]></text>
+		</element>
+	</title>
+	<columnHeader height="63" splitType="Stretch">
+		<element kind="staticText" uuid="95081e30-9de7-498c-aa32-cb927be8c37d" x="0" y="0" width="60" height="54" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Room No.]]></text>
+		</element>
+		<element kind="staticText" uuid="ca00c0ef-061c-45c3-94e0-b2e2bc902827" x="59" y="-1" width="91" height="54" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Check In]]></text>
+		</element>
+		<element kind="staticText" uuid="fba1c237-76bb-4aea-a2ce-9145476c5d25" x="150" y="0" width="89" height="52" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Check Out]]></text>
+		</element>
+		<element kind="staticText" uuid="a5842210-48a2-4516-90ae-1a239e7f7164" x="239" y="-1" width="101" height="52" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Room Type]]></text>
+		</element>
+		<element kind="staticText" uuid="4f4c9521-558b-4572-8fcb-b1c3ee957756" x="340" y="0" width="90" height="50" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Adults]]></text>
+		</element>
+		<element kind="staticText" uuid="014244e1-01a2-4202-8ce7-739139c48c58" x="430" y="0" width="90" height="50" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Children]]></text>
+		</element>
+		<element kind="staticText" uuid="8a6e6762-d5ad-4e06-ba25-a1eeec3d72ff" x="520" y="0" width="90" height="50" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Room Price]]></text>
+		</element>
+		<element kind="staticText" uuid="b6af00c0-685b-42ea-81ef-e016674b8831" x="610" y="-1" width="90" height="51" fontName="Poppins Light" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Number of Nights]]></text>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="34" splitType="Stretch">
+			<element kind="textField" uuid="f78dad88-f76f-4180-b761-bb7d10524e7b" x="0" y="0" width="60" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_0}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4a1bbebc-1458-4cfa-bd31-c1339b90cba1"/>
+			</element>
+			<element kind="textField" uuid="4b9ab011-6941-426a-abe1-cf50499b0ee1" x="59" y="0" width="91" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_1}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7e78ddff-6a20-438e-9998-bac379e0fcec"/>
+			</element>
+			<element kind="textField" uuid="962c5784-a16c-4126-8102-1f62e1af7d3a" x="150" y="0" width="88" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_2}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9139f72d-34ce-4b60-8b9e-f7373a77685f"/>
+			</element>
+			<element kind="textField" uuid="d6c9d24c-43d0-4376-9c23-dc796d7791a3" x="239" y="0" width="100" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_2}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ff032783-532c-42c5-ba7a-f7ed9c464363"/>
+			</element>
+			<element kind="textField" uuid="7b0a3dbf-782c-4405-aad0-f2b888d5b6fa" x="340" y="0" width="90" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_3}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2e41de8c-361a-4da2-8753-513ab12cf928"/>
+			</element>
+			<element kind="textField" uuid="28f66697-a490-416d-9323-222c5e12985b" x="430" y="0" width="90" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_4}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c5e96a7c-5589-4904-9aec-91c97deb596d"/>
+			</element>
+			<element kind="textField" uuid="36e4a3e6-7bb9-4cc3-9946-aef5b415d096" x="520" y="0" width="90" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_5}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="96533566-5a10-412e-b8b5-71c4613a5696"/>
+			</element>
+			<element kind="textField" uuid="d578b34e-7795-45a0-aaff-a9d9e0f23ddb" x="610" y="0" width="90" height="30" fontName="Poppins Light" fontSize="10.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_6}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="84b04e40-0cd2-4dcd-8ca0-f34a669ccedb"/>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="221" splitType="Stretch">
+		<element kind="staticText" uuid="7c52fdfb-6048-415d-9dcb-9877c2338963" x="77" y="202" width="649" height="19" fontName="Poppins Light" fontSize="12.0" hTextAlign="Center">
+			<text><![CDATA[Thank you for staying with us! We hope to see you again soon.]]></text>
+		</element>
+	</columnFooter>
+	<summary height="30" splitType="Stretch"/>
+</jasperReport>

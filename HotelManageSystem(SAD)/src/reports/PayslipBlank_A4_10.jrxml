@@ -1,0 +1,142 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="PayslipBlank_A4_10" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="92d5b21c-687e-4e01-887b-d7503e0e3940">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<parameter name="Parameter3" class="java.lang.String"/>
+	<parameter name="Parameter4" class="java.lang.String"/>
+	<parameter name="Parameter5" class="java.lang.String"/>
+	<parameter name="Parameter6" class="java.lang.String"/>
+	<parameter name="Parameter7" class="java.lang.String"/>
+	<parameter name="Parameter8" class="java.lang.String"/>
+	<parameter name="Parameter9" class="java.lang.String"/>
+	<parameter name="Parameter10" class="java.lang.String"/>
+	<parameter name="Parameter11" class="java.lang.String"/>
+	<parameter name="Parameter12" class="java.lang.String"/>
+	<parameter name="Parameter13" class="java.lang.String"/>
+	<parameter name="Parameter14" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="137" splitType="Stretch">
+		<element kind="rectangle" uuid="dfb299c3-9664-41a7-8791-749596e52455" x="-20" y="-20" width="595" height="157" backcolor="#13136B"/>
+		<element kind="staticText" uuid="f01f1c14-a372-4ee3-8453-ce7e794609fb" x="150" y="-10" width="170" height="30" forecolor="#FFFFFF" fontSize="14.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+			<text><![CDATA[Payslip for the month of ]]></text>
+		</element>
+		<element kind="staticText" uuid="b1245924-69d7-4f9a-997a-c9f869933ffd" x="-11" y="30" width="120" height="30" forecolor="#FFFFFF" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Hotel Air
+802 Corporate Road.
+New York, NY 10801]]></text>
+		</element>
+		<element kind="textField" uuid="6c690281-ef89-4682-8b86-f8cc5438e460" x="-11" y="70" width="151" height="20" forecolor="#FFFFFF" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter1}]]></expression>
+		</element>
+		<element kind="textField" uuid="d9207dfb-76a1-4678-98fd-ad5f677f398f" x="-10" y="90" width="150" height="20" forecolor="#FFFFFF" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter2}]]></expression>
+		</element>
+		<element kind="textField" uuid="03c93ae2-431b-40c4-b3a6-ac75be1a0d17" x="-11" y="110" width="151" height="20" forecolor="#FFFFFF" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter3}]]></expression>
+		</element>
+		<element kind="textField" uuid="77227274-2b00-424b-a6c6-61f8b6a75362" x="330" y="-10" width="150" height="30" forecolor="#FFFFFF" fontSize="14.0" bold="true" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter4}]]></expression>
+		</element>
+		<element kind="textField" uuid="aa6ada57-fdc6-4c96-9b42-5ea1f6a5ab44" x="460" y="110" width="100" height="20" forecolor="#FFFFFF" fontSize="10.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter14}]]></expression>
+		</element>
+	</title>
+	<detail>
+		<band height="167" splitType="Stretch">
+			<element kind="staticText" uuid="f42b6734-246c-4123-b154-33400d05c5b2" x="-10" y="10" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[#]]></text>
+			</element>
+			<element kind="staticText" uuid="c8738b9e-a057-419a-befe-4464588be8e2" x="20" y="10" width="120" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[Earnings]]></text>
+			</element>
+			<element kind="staticText" uuid="55d7e77d-869f-4ef0-becc-cdf225c815d0" x="160" y="10" width="110" height="20" fontSize="12.0" bold="true" hTextAlign="Right">
+				<text><![CDATA[Total]]></text>
+			</element>
+			<element kind="staticText" uuid="1a12472c-2cf3-49d3-92a5-8b1c796bb9ac" x="280" y="10" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[#]]></text>
+			</element>
+			<element kind="staticText" uuid="6d570ce9-45e1-49ef-8889-6a3320ae5db0" x="310" y="10" width="120" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[Deductions]]></text>
+			</element>
+			<element kind="staticText" uuid="aed72b57-778f-4d03-ad0e-d0ea8c265990" x="450" y="10" width="110" height="20" fontSize="12.0" bold="true" hTextAlign="Right">
+				<text><![CDATA[Total]]></text>
+			</element>
+			<element kind="staticText" uuid="3efc2a12-e3cf-4731-93f9-9e3ccc150934" x="-11" y="40" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[1]]></text>
+			</element>
+			<element kind="staticText" uuid="64bdc9da-d97e-4c8d-baa7-497f6e216387" x="-10" y="60" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[2]]></text>
+			</element>
+			<element kind="staticText" uuid="8d3b8a6c-30d7-47c4-a59e-dacfed21eac1" x="-10" y="80" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[3]]></text>
+			</element>
+			<element kind="staticText" uuid="414ced57-745d-408c-a3ed-d516c1aa692b" x="280" y="40" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[1]]></text>
+			</element>
+			<element kind="staticText" uuid="c39911c4-c503-43d0-9436-f03cd05db25f" x="280" y="60" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[2]]></text>
+			</element>
+			<element kind="staticText" uuid="0f0ccf18-fad8-4161-a140-789e5d428b76" x="280" y="80" width="10" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[3]]></text>
+			</element>
+			<element kind="staticText" uuid="a5af4fa0-5ce1-49d7-97ba-9df8ac49d15b" x="0" y="40" width="150" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[Basic Salary]]></text>
+			</element>
+			<element kind="staticText" uuid="7565ab9c-aec4-41de-9712-00fbb05a17e2" x="0" y="60" width="150" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[Bonus]]></text>
+			</element>
+			<element kind="staticText" uuid="e95e70e6-56cb-4b9c-a2f0-c52e21b40c2a" x="0" y="80" width="150" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[Other Allowance]]></text>
+			</element>
+			<element kind="staticText" uuid="8654587a-a958-4e7f-ac1b-d85ddbbc6fdc" x="290" y="40" width="150" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[T.D.S.]]></text>
+			</element>
+			<element kind="staticText" uuid="062eb7a2-60da-4c56-afe8-894c66bb89be" x="290" y="60" width="150" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[ESI]]></text>
+			</element>
+			<element kind="staticText" uuid="be91bf9b-0347-4dcb-aeeb-ef3750eb6b78" x="290" y="80" width="150" height="20" fontSize="12.0" bold="true">
+				<text><![CDATA[Other Deductions]]></text>
+			</element>
+			<element kind="textField" uuid="9f235390-9d47-412a-872c-bf9f29397199" x="150" y="40" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter5}]]></expression>
+			</element>
+			<element kind="textField" uuid="267c255e-0942-4616-b884-db65d88e722f" x="150" y="60" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter6}]]></expression>
+			</element>
+			<element kind="textField" uuid="7c8652ee-d2e5-4f5d-befe-f94d0f72d64b" x="150" y="80" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter7}]]></expression>
+			</element>
+			<element kind="textField" uuid="fe434e2d-113d-46ea-b88e-c5c28dbf66d4" x="440" y="40" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter8}]]></expression>
+			</element>
+			<element kind="textField" uuid="96d374e1-1e9d-475f-a3b9-18733bc073c4" x="440" y="60" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter9}]]></expression>
+			</element>
+			<element kind="textField" uuid="6d1b80df-160c-40f9-a1ed-72d202d3c494" x="440" y="80" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter10}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<summary height="77" splitType="Stretch">
+		<element kind="staticText" uuid="63fbedb0-c9a9-4007-bbad-918a124fbcd3" x="330" y="0" width="110" height="20" fontSize="12.0" bold="true" hTextAlign="Right">
+			<text><![CDATA[Total Earnings:]]></text>
+		</element>
+		<element kind="staticText" uuid="061102eb-e32f-4116-b133-b31d5d0806cd" x="330" y="22" width="110" height="20" fontSize="12.0" bold="true" hTextAlign="Right">
+			<text><![CDATA[Total Deductions:]]></text>
+		</element>
+		<element kind="staticText" uuid="5cfc4904-1891-468b-9f95-6113aaf50909" x="330" y="50" width="110" height="20" fontSize="12.0" bold="true" hTextAlign="Right">
+			<text><![CDATA[Total Deductions:]]></text>
+		</element>
+		<element kind="textField" uuid="3b4a3d6d-a34e-4742-985b-40d8c269d60e" x="440" y="0" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter11}]]></expression>
+		</element>
+		<element kind="textField" uuid="6c5c526e-edb5-4743-ae95-3f82f56c15e0" x="440" y="23" width="120" height="18" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter12}]]></expression>
+		</element>
+		<element kind="textField" uuid="79cfbaeb-5a75-4b59-aae0-007df2c66a0e" x="440" y="50" width="120" height="20" fontSize="12.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter13}]]></expression>
+		</element>
+	</summary>
+</jasperReport>
