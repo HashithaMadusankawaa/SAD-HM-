@@ -1,0 +1,45 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="DepartmentsReportBlank_A4_10" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="efd9ff49-b81a-4e41-b72f-4d7bbf8e0dba">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="COLUMN_0" class="java.lang.String"/>
+	<field name="COLUMN_1" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<title height="79" splitType="Stretch">
+		<element kind="rectangle" uuid="6195d0f2-c10e-4f5b-aaec-b3cf5954dcf3" x="-20" y="0" width="595" height="79"/>
+		<element kind="staticText" uuid="7eae6b84-1567-4c9e-8193-b43e8e1e5288" x="120" y="24" width="293" height="30" fontSize="20.0" bold="true" italic="false" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Hotel Air -  Departments List]]></text>
+		</element>
+	</title>
+	<columnHeader height="30" splitType="Stretch">
+		<element kind="staticText" uuid="3b20861a-290c-4954-943a-f764bb6bab6d" x="0" y="0" width="280" height="30" fontSize="14.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Id]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bda3f910-cabc-4d0b-8aa1-a9f504052c28"/>
+			<box padding="0">
+				<pen lineWidth="1.0" lineStyle="Solid"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="dd22fef5-5bdc-44d9-b089-20ffafc8683f" x="280" y="0" width="280" height="30" fontSize="14.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Name]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bda3f910-cabc-4d0b-8aa1-a9f504052c28"/>
+			<box padding="0">
+				<pen lineWidth="1.0" lineStyle="Solid"/>
+			</box>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<element kind="textField" uuid="8c48a8ca-f0cd-4446-aa39-3abe09601990" x="0" y="0" width="280" height="30" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_0}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f9582701-e28b-4d26-af1b-a29e2e9a58a4"/>
+			</element>
+			<element kind="textField" uuid="f09dbfbb-1e0f-4a4b-9163-397bf0cdcc93" x="280" y="0" width="280" height="30" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{COLUMN_1}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ac891618-2cdd-4914-bdc6-04079fedaa9c"/>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

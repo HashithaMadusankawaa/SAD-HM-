@@ -2670,6 +2670,9 @@ public class Dashboard extends javax.swing.JFrame {
         panelRound61.setRoundTopLeft(35);
         panelRound61.setRoundTopRight(35);
         panelRound61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                panelRound61MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 panelRound61MouseEntered(evt);
             }
@@ -4137,6 +4140,11 @@ public class Dashboard extends javax.swing.JFrame {
         PaysliprReport paysliprReport = new PaysliprReport(null, true);
         paysliprReport.setVisible(true);
     }//GEN-LAST:event_jLabel57MouseClicked
+
+    private void panelRound61MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_panelRound61MouseClicked
+      HRMS_Reports hRMS_Reports = new HRMS_Reports(null, true);
+      hRMS_Reports.setVisible(true);
+    }//GEN-LAST:event_panelRound61MouseClicked
 
     private void LoardTotalBppking() {
         try {

@@ -94,10 +94,11 @@ public class AllEmployee extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("All Employee");
 
-        jPanel1.setBackground(new java.awt.Color(13, 208, 157));
+        jPanel1.setBackground(new java.awt.Color(219, 253, 130));
 
+        jLabel1.setBackground(new java.awt.Color(219, 253, 130));
         jLabel1.setFont(new java.awt.Font("Poppins", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("All Employee");
 
         panelRound1.setBackground(new java.awt.Color(32, 48, 47));
